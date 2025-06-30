@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Sample image data with categories
     const images = [
+<<<<<<< HEAD
         { src: 'img/nature 1.jpg', category: 'nature' },
         { src: '/img/city1.jpg', category: 'city' },
         { src: '/img/abs1.jpg', category: 'abstract' },
