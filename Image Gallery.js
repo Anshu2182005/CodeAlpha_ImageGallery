@@ -10,16 +10,17 @@ document.addEventListener('DOMContentLoaded', () => {
 <<<<<<< HEAD
         { src: 'img/nature 1.jpg', category: 'nature' },
         { src: '/img/city1.jpg', category: 'city' },
-        { src: '/img/abs1.jpg', category: 'abstract' },
-        { src: '/img/nature 2.jpg', category: 'nature' },
-        { src: '/img/city2.jpg', category: 'city' },
-        { src: '/img/abs2.jpg', category: 'abstract' },
-        { src: '/img/nature 3.jpg', category: 'nature' },
-        { src: '/img/city3.jpg', category: 'city' },
-        { src: '/img/abs3.jpg', category: 'abstract' },
-        { src: '/img/nature 4.jpg', category: 'nature' },
-        { src: '/img/city4.jpg', category: 'city' },
-        { src: '/img/abs4.jpg', category: 'abstract' },
+        { src: 'img/city1.jpg', category: 'city' },
+        { src: 'img/abs1.jpg', category: 'abstract' },
+        { src: 'img/nature 2.jpg', category: 'nature' },
+        { src: 'img/city2.jpg', category: 'city' },
+        { src: 'img/abs2.jpg', category: 'abstract' },
+        { src: 'img/nature 3.jpg', category: 'nature' },
+        { src: 'img/city3.jpg', category: 'city' },
+        { src: 'img/abs3.jpg', category: 'abstract' },
+        { src: 'img/nature 4.jpg', category: 'nature' },
+        { src: 'img/city4.jpg', category: 'city' },
+        { src: 'img/abs4.jpg', category: 'abstract' },
     ];
 
     let currentSlideIndex = 0;
