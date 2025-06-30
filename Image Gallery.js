@@ -3,24 +3,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const lightbox = document.getElementById('lightbox');
     const lightboxImage = document.getElementById('lightboxImage');
     const closeBtn = document.querySelector('.close-btn');
-    const imagesBtn = document.getElementById('imagesBtn');
-    const albumsBtn = document.getElementById('albumsBtn');
     const filterButtons = document.querySelectorAll('.filter-btn');
 
     // Sample image data with categories
     const images = [
-        { src: '/task 1/img/nature 1.jpg', category: 'nature' },
-        { src: '/task 1/img/city1.jpg', category: 'city' },
-        { src: '/task 1/img/abs1.jpg', category: 'abstract' },
-        { src: '/task 1/img/nature 2.jpg', category: 'nature' },
-        { src: '/task 1/img/city2.jpg', category: 'city' },
-        { src: '/task 1/img/abs2.jpg', category: 'abstract' },
-        { src: '/task 1/img/nature 3.jpg', category: 'nature' },
-        { src: '/task 1/img/city3.jpg', category: 'city' },
-        { src: '/task 1/img/abs3.jpg', category: 'abstract' },
-        { src: '/task 1/img/nature 4.jpg', category: 'nature' },
-        { src: '/task 1/img/city4.jpg', category: 'city' },
-        { src: '/task 1/img/abs4.jpg', category: 'abstract' },
+        { src: 'img/nature 1.jpg', category: 'nature' },
+        { src: '/img/city1.jpg', category: 'city' },
+        { src: '/img/abs1.jpg', category: 'abstract' },
+        { src: '/img/nature 2.jpg', category: 'nature' },
+        { src: '/img/city2.jpg', category: 'city' },
+        { src: '/img/abs2.jpg', category: 'abstract' },
+        { src: '/img/nature 3.jpg', category: 'nature' },
+        { src: '/img/city3.jpg', category: 'city' },
+        { src: '/img/abs3.jpg', category: 'abstract' },
+        { src: '/img/nature 4.jpg', category: 'nature' },
+        { src: '/img/city4.jpg', category: 'city' },
+        { src: '/img/abs4.jpg', category: 'abstract' },
     ];
 
     let currentSlideIndex = 0;
