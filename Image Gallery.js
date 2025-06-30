@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Sample image data with categories
     const images = [
-        { src: '/img/nature 1.jpg', category: 'nature' },
+        { src: 'https://github.com/Anshu2182005/CodeAlpha_ImageGallery/blob/main/img/abs1.jpg', category: 'nature' },
         { src: '/img/city1.jpg', category: 'city' },
         { src: '/img/abs1.jpg', category: 'abstract' },
         { src: '/img/nature 2.jpg', category: 'nature' },
